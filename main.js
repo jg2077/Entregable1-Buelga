@@ -42,12 +42,6 @@ const vaciarCarrito = () => {
     }
 };
 
-//funcion para vaciar el carrito
-// const vaciarCarrito = () => {
-//     carrito = []; // crea un nuevo array vacío, se puede hacer con .length = 0;
-//     alert("El carrito ha sido vaciado.");
-// };
-
 //funcion para mostrar la cantidad de productos en el carrito
 const mostrarCantidadCarrito = () => {
     return carrito.length;
@@ -90,9 +84,6 @@ do {
             alert("Gracias por su compra\n" + "Subtotal: $" + suma + "\n" + "IVA (21%): $" + iva + "\n" + "TOTAL: $" + totalConIVA
             );
             break;
-        // let iva = suma * 0.21;
-        // let totalConIVA = suma + iva;
-        // alert("Gracias por su compra\n" + "Subtotal: $" + suma + "\n" + "IVA (21%): $" + iva + "\n" + "TOTAL: $" + totalConIVA);
         case "8":
             vaciarCarrito();
             break;
