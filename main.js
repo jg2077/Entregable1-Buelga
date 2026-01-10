@@ -55,11 +55,11 @@ do {
     opcion = prompt(
         "Bienvenido\n\n" + // \n\n salto de línea doble para dejar espacio
         "Ingrese el número del producto que desea agregar al carrito:\n\n" + // \n\n
-        "1) Guitarra - 150.000\n" +
-        "2) Bajo - 170.000\n" +
-        "3) Pedal - 50.000\n" +
-        "4) Amplificador - 130.000\n" +
-        "5) Auriculares - 30.000\n\n" + // \n\n
+        "1) Guitarra - $150.000\n" +
+        "2) Bajo - $170.000\n" +
+        "3) Pedal - $50.000\n" +
+        "4) Amplificador - $130.000\n" +
+        "5) Auriculares - $30.000\n\n" + // \n\n
         "6) Detalle del carrito\n" +
         "7) Mostrar total + IVA\n" +
         "8) Vaciar carrito\n" +
