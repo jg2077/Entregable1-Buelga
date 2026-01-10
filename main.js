@@ -63,7 +63,7 @@ do {
         "6) Detalle del carrito\n" +
         "7) Mostrar total + IVA\n" +
         "8) Vaciar carrito\n" +
-        "9) Cantidad de productos en el carrito:"
+        "9) Cantidad de productos en el carrito"
     );
 
 
