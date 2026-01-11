@@ -63,7 +63,8 @@ do {
         "6) Detalle del carrito\n" +
         "7) Mostrar total + IVA\n" +
         "8) Vaciar carrito\n" +
-        "9) Cantidad de productos en el carrito"
+        "9) Cantidad de productos en el carrito\n"+
+        "10) Salir"
     );
 
 
@@ -103,8 +104,10 @@ do {
         case "9":
             alert("Cantidad de productos en el carrito: " + mostrarCantidadCarrito());
             break;
+        case "10": alert("Programa finalizado. ¡Gracias por su compra!");
+            break;
         default:
-            alert("Opción no válida, por favor ingrese un número del 1 al 6");
+            alert("Opción no válida, por favor ingrese un número del 1 al 10");
             break;
     }
-} while (parseInt(opcion) !== "6"); // no usar != porque compara un string, usar "6" para que sea string
+} while (opcion !== "10"); // trabajar con strings
